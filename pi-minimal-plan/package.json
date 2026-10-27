@@ -1,0 +1,39 @@
+{
+  "name": "pi-minimal-plan",
+  "version": "0.1.0",
+  "description": "Minimal plan mode based on Pi's official example, with a toggleable todo panel.",
+  "type": "module",
+  "license": "MIT",
+  "author": "lulumaster",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "plan-mode",
+    "minimal"
+  ],
+  "files": [
+    "index.ts",
+    "utils.ts",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

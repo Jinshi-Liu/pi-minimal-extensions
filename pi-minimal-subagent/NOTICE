@@ -1,0 +1,6 @@
+Based on the official Pi 1.4.0 subagent example.
+Upstream: https://github.com/earendil-works/pi/tree/v1.4.0/packages/coding-agent/examples/extensions/subagent
+Upstream copyright: Copyright (c) 2025 Mario Zechner
+License: MIT (see LICENSE)
+
+This community package adapts the example for direct installation as a Pi package.

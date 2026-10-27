@@ -1,0 +1,29 @@
+{
+  "name": "pi-minimal-extensions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plan Mode and Subagent implementations based on the official Pi examples.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jinshi-Liu/pi-minimal-extensions.git"
+  },
+  "pi": {
+    "extensions": [
+      "./pi-minimal-plan/index.ts",
+      "./pi-minimal-subagent/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}
